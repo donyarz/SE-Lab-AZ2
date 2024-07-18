@@ -12,6 +12,11 @@ public class PhoneOrderService implements OrderService {
     }
 
     @Override
+    public void phoneOrderRegister(String customerName) {
+        System.out.println("Phone order registered for " + customerName);
+    }
+
+    @Override
     public void onSiteOrderPayment(int foodPrice) {
         // Empty Body
     }
@@ -21,11 +26,7 @@ public class PhoneOrderService implements OrderService {
         // Empty Body
     }
 
-    // New methods for phone orders
-    public void phoneOrderRegister(String customerName) {
-        System.out.println("Phone order registered for " + customerName);
-    }
-
+    @Override
     public void phoneOrderPayment(int foodPrice) {
         System.out.println("Phone Payment with Price: " + foodPrice + " Tomans!");
     }
