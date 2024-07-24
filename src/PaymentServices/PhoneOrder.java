@@ -1,6 +1,6 @@
 package PaymentServices;
 
 public interface PhoneOrder {
-    void registerPhoneOrder(String customerName);
-    void processPhonePayment(int foodPrice);
+    void phoneOrderRegister(String customerName);
+    void phoneOrderPayment(int foodPrice);
 }

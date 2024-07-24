@@ -1,6 +1,6 @@
 package PaymentServices;
 
 public interface OnlineOrder {
-    void registerOnlineOrder(String customerName);
-    void processOnlinePayment(int foodPrice);
+    void onlineOrderRegister(String customerName);
+    void onlineOrderPayment(int foodPrice);
 }
