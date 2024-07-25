@@ -1,2 +1,12 @@
-# Software-Engineering-Lab-Az2
-The second Az of computer engineering laboratory of Sharif University of Technology
+## Software-Engineering-Lab-Az2
+
+
+
+# گام اول: افزودن یک روش پیام رسانی دیگر
+| ردیف | محل اعمال تغییرات (کلاس/واسط) | عنوان تغییر                   | شرحی کوتاه از تغییر                             |
+|------|--------------------------------|-------------------------------|------------------------------------------------|
+| 1    | MessageService                 | افزودن تابع ارسال پیام تلگرامی | افزودن یک تابع `void` با عنوان `sendTelegramMessage` |
+| 2    | NotificationService            | افزودن تابع ارسال SMS        | افزودن یک تابع برای ارسال پیامک               |
+| 3    | NotificationService            | افزودن تابع ارسال Email      | افزودن یک تابع برای ارسال ایمیل               |
+| 4    | Main                           | افزودن کد برای ارسال پیام    | افزودن کد برای استفاده از سرویس‌های پیام‌رسانی |
+
